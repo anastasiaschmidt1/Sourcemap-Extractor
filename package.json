@@ -1,0 +1,16 @@
+{
+  "name": "sourcemap-extractor",
+  "version": "1.0.0",
+  "description": "A tool to extract sourcemap files and restore original source code files.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node extract.js"
+  },
+  "dependencies": {
+    "source-map": "^0.7.3",
+    "mkdirp": "^0.5.5"
+  },
+  "author": "Anastasia Schmidt",
+  "license": "MIT"
+}
+
